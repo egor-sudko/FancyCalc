@@ -11,8 +11,8 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
-            throw new NotImplementedException();
-            //return a + b;
+            //throw new NotImplementedException();
+            return a + b;
         }
 
 
@@ -32,7 +32,7 @@ namespace FancyCalc
         public double Culculate(string expression)
         {
             throw new NotImplementedException();
-
+            
         }
     }
 }
