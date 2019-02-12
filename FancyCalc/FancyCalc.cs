@@ -25,7 +25,15 @@ namespace FancyCalc
 
         public double Multiply(int a, int b)
         {
-            return a * b;
+            if (a != 0 && b != 0)
+            {
+                return a * b;
+            }
+            else
+            {
+                return 0;
+            }
+            
         }
 
         //generic calc method. usage: "10 + 20"  => result 30
